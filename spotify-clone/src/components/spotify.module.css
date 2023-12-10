@@ -1,0 +1,25 @@
+.container{
+   width: 100vw;
+   height: 100vh;
+   display: grid;
+   overflow: hidden;
+   grid-template-rows: 85vh 15vh;
+   border: 1px solid red;
+}
+
+.spotify_body{
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+    height: 100%;
+    width: 100%;
+    gap: 10rem;
+    background: linear-gradient(transparent,rgb(0,0,1));
+    background-color: rgb(32,87,100);
+    border: 1px solid black;
+}
+.body{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+
+}
