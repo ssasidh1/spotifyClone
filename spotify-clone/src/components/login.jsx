@@ -18,9 +18,14 @@ export default function Login() {
   }
   return (
     // 
+    <>
     <div className={styles['login-main']}>
         <img src='./spotifyLogo.png' alt="Spotify" className={styles['spot-logo']}></img>
         <button className={styles['login-btn']} onClick={handleClick}>Connect</button>
     </div>
+    <div className={styles['lap-div']}>
+    <img src='./laptop.png' alt="Spotify" className={styles['laptop']}></img>
+    </div>
+    </>
   )
 }

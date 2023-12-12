@@ -31,3 +31,13 @@ body{
     font-weight: bold;
     cursor:pointer;
 }
+
+.lap-div{
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+.laptop{
+    width:800px;
+    height: 100vh;
+}
