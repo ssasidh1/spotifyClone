@@ -13,14 +13,15 @@ export default function Login() {
     "user-read-currently-playing",
     "user-read-playback-position"
     ,"user-top-read",
-    "user-read-recently-played",]
+    "user-read-recently-played",
+  "playlist-read-private"]
     window.location.href = `${apiURL}?client_id=${clientID}&redirect_uri=${redirectURL}&scope=${scope.join(" ")}&response_type=token&show_dialog=true`
   }
   return (
     // 
     <>
     <div className={styles['login-main']}>
-        <img src='./spotifyLogo.png' alt="Spotify" className={styles['spot-logo']}></img>
+        <img src='./Grovify.png' alt="Spotify" className={styles['spot-logo']}></img>
         <button className={styles['login-btn']} onClick={handleClick}>Connect</button>
     </div>
     <div className={styles['lap-div']}>
